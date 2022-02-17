@@ -1,0 +1,66 @@
+.reportMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.reportMain button{
+    background-color: rgb(5, 0, 36);
+    color: white;
+    margin: 10px 5px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border-style: hidden;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+.reportMain button:hover{
+    background-color: rgb(12, 0, 88);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.reportMain text{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.reportMain input{
+    font-size: 15px;
+    padding: 4px 4px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.reportMain span{
+    font-size: 16px;
+    margin: 3px 3px;
+}
+
+.reportButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.reportMain table{
+    background-color: rgba(0, 0, 0, 0.068);
+    width: 100%;
+    text-align: center;
+}
+
+.dateSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
